@@ -46,10 +46,10 @@ public class Disparar : MonoBehaviour
 
     }
 
-    void ObtenerMunicion(Notification notificacion)
+    void ObtenerMunicion()
     {
 
-        municion += 1;
+        municion += 5;
 
     }
 }

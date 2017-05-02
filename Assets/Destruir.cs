@@ -18,9 +18,10 @@ public class Destruir : MonoBehaviour {
 
 		if (colision.gameObject.CompareTag("dron")){
 
-			NotificationCenter.DefaultCenter().PostNotification (this, "Puntuar");
+			
 
 			Destroy (colision.gameObject);
+            NotificationCenter.DefaultCenter().PostNotification(this, "SetCountText");
 
 		}
 
